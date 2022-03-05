@@ -1,0 +1,3 @@
+document.querySelector("#ctl00_cplhContainer_cmbFormCO_Arrow").click();document.querySelector("#ctl00_cplhContainer_cmbFormCO_DropDown > div > ul > li:nth-child(2)").click();__doPostBack("ctl00$cplhContainer$cmbFormCO");setTimeout(function(){document.querySelector("#ctl00_cplhContainer_cmbMarket_Arrow").click();document.querySelector("#ctl00_cplhContainer_cmbMarket_DropDown > div > ul > li:nth-child(9)").click()
+    //do what you need here
+}, 2000);

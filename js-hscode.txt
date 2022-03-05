@@ -1,0 +1,6 @@
+document.querySelector("#ctl00_cplhContainer_cmbHSCode_Input").value = '01012900';
+document.querySelector("#ctl00_cplhContainer_cmbHSCode_Arrow").click();
+setTimeout(function()
+           {
+document.querySelector("#ctl00_cplhContainer_cmbHSCode_DropDown > div.rcbScroll.rcbWidth.rcbNoWrap > ul > li").click();
+           },1000)   

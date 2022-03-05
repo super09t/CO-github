@@ -1,0 +1,1 @@
+=CONCATENATE(ROUND(IF(OR(A1=$N$3,A1=$N$4,A1=$N$5,A1=$N$6,A1=$N$7,A1=$N$8,A1=$N$9),"???",IF(A1=$N$10,Edward(A1,"L18"),IF(A1=$N$2,Edward(A1,"L23"),Edward(A1,"L19"))))*100,2),"%")
